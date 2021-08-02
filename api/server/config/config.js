@@ -1,8 +1,6 @@
-
-require('dotenv').config();
+require('dotenv').config()
 
 module.exports = {
-
   development: {
     database: 'posts',
     username: 'aqdasmalik',
@@ -26,4 +24,4 @@ module.exports = {
     host: process.env.DB_HOST,
     dialect: 'postgres'
   }
-};
+}

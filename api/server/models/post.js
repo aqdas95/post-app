@@ -2,7 +2,7 @@ module.exports = (sequelize, DataTypes) => {
   const Post = sequelize.define('Post', {
     description: {
       type: DataTypes.TEXT,
-      allowNull: false,
+      allowNull: false
     },
     average_rating: {
       type: DataTypes.FLOAT,
@@ -13,7 +13,7 @@ module.exports = (sequelize, DataTypes) => {
       type: DataTypes.INTEGER,
       allowNull: false,
       defaultValue: 0
-    },
-  });
-  return Post;
-};
+    }
+  })
+  return Post
+}
